@@ -14,6 +14,9 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.send('This is my about route..... ')
 })
+app.get('/home', (req, res) => {
+  res.send('This is my hone route..... ')
+})
 
 app.get('/bubs', (req, res) => {
   res.send(' welcome to my route 🥳... ')
