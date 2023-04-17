@@ -16,7 +16,7 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/bubs', (req, res) => {
-  res.send(' welcome to my route... ')
+  res.send(' welcome to my route 🥳... ')
 })
 
 // Export the Express API
